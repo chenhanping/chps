@@ -16,4 +16,9 @@
     "autoload": {
         "psr-4": {"test\\": "src"}
     }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    },
 }
