@@ -1,48 +1,25 @@
 {
-    "name": "chps/test",
-    "description": "test",
+    "name": "chps/src",
+    "description": "code",
     "type": "library",
     "license": "MIT",
     "authors": [
-        {
-            "name": "adminchp",
-            "email": "my_mailbox@qq.com"
-        }
+	{
+	    "name": "adminchp",
+	    "email": "my_mailbox@qq.com"
+	}
     ],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "chps\\test\\": "src/Test/"
-        }
+	"psr-4": {
+	    "chps\\test\\": "Test/",
+	    "chps\\payment\\": "Payment/"
+	}
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
-}
-{
-    "name": "chps/payment",
-    "description": "payment",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "adminchp",
-            "email": "my_mailbox@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-	    "chps\\payment\\": "src/Payment/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+	"branch-alias": {
+	    "dev-master": "1.0.x-dev"
+	}
     }
 }
