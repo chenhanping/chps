@@ -1,5 +1,5 @@
 {
-    "name": "chps/src",
+    "name": "chps/app",
     "description": "code",
     "type": "library",
     "license": "MIT",
@@ -13,8 +13,8 @@
     "require": {},
     "autoload": {
 	"psr-4": {
-	    "chps\\test\\": "Test/",
-	    "chps\\payment\\": "Payment/"
+	    "chps\\test\\": "src/Test",
+	    "chps\\payment\\": "src/Payment"
 	}
     },
     "extra": {
