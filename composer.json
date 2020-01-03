@@ -16,4 +16,9 @@
             "chps\\test\\": "src/Test/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
 }
