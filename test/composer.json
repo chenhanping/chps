@@ -15,5 +15,10 @@
     },
     "autoload": {
         "psr-4": {"Chps\\test\\": "src"}
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
 }
