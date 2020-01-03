@@ -14,6 +14,6 @@
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"chps/test": "src"}
+        "psr-4": {"test": "src"}
     }
 }
